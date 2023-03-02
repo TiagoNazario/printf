@@ -1,25 +1,33 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_printf.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: tnazario <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/03/02 15:33:28 by tnazario          #+#    #+#             */
+/*   Updated: 2023/03/02 15:33:37 by tnazario         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "ft_printf.h"
 
 int ft_criterios(va_list arg, char format)
 {
-    int len;
-
-    len = 0;
-    if (format == 'c')
-        len =
-            if (format == '%')
-                len =
-                    if (format == 's')
-                        len =
-                            if (format == 'i' || format == 'd')
-                                len =
-                                    if (format == 'u')
-                                        len =
-                                            if (format == 'x')
-                                                len =
-                                                    if (format == 'p')
-                                                        len =
-                                                            return (len);
+	if (format == 'c')
+		return ();
+	else if (format == '%')
+		return ();
+	else if (format == 's')
+		return ();
+	else if (format == 'i' || format == 'd')
+		return ();
+	else if (format == 'u')
+		return ();
+	else if (format == 'x')
+		return ();
+	else if (format == 'p')
+		return ();
 }
 
 int ft_printf(const char *str)
